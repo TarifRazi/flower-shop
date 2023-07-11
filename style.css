@@ -17,7 +17,7 @@
     margin-top: 20px;
     font-size: 25px;
     color: white;
-
+    cursor: pointer;
 }
 
 h3 {
@@ -32,11 +32,13 @@ h4 {
     font-size: 24px;
     font-weight: 700;
     text-decoration-line: underline;
+    padding-top: 10px;
 }
 
 p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
+    padding: 7px 0;
 }
 
 /* banner styles */
@@ -200,39 +202,62 @@ p {
     background-image: url('./Flower Asset/Rectangle 9.png');
     background-repeat: no-repeat;
     background-size: contain;
-    height: 409px;
-    margin: 128px 140px;
+    /* height: 409px; */
+    margin: 0 100px;
     text-align: center;
     padding: 100px 0px;
 }
 
+.latest-deals-cont .mail {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* justify-items: center; */
+    position: relative;
+}
+
 .latest-deals-cont .mail input {
-    display: inline;
-    width: 500px;
-    height: 40px;
+    /* display: inline; */
+    width: 450px;
+    padding: 28px 80px 28px 40px;
+    margin-left: 180px;
+    /* height: 40px;
     border-radius: 8px;
     border: 0;
     padding: 16px;
-    margin-bottom: 2px;
+    margin-bottom: 2px; */
 
+}
+
+.latest-deals-cont .mail button {
+    /* background-color: #E55473;
+    padding:  15px; */
+    position: absolute;
+    right: 180px;
+    top: 0;
 }
 
 /* feedback style */
-.feedback-cont{
+.feedback-cont {
     background-color: rgb(248, 248, 107);
     padding: 100px 340px;
-    margin-bottom: 150px;
+    margin: 128px 0;
 }
+
 .feedback-info {
     display: flex;
     display: block;
     align-items: center;
     justify-content: center;
 }
-.feedback-info input[type="text"], input[type="email"], textarea{
+
+.feedback-info input[type="text"],
+input[type="email"],
+textarea {
     display: block;
     margin-bottom: 25px;
-    padding: 18px 35px ;
+    padding: 18px 35px;
     color: #757575;
     background-color: #fff;
     border-radius: 5px;
@@ -248,16 +273,16 @@ footer {
     padding: 100px 100px;
 }
 
-.footer-cont small{
+.footer-cont small {
     color: rgba(255, 255, 255, 0.40);
-text-align: center;
-font-size: 16px;
-font-weight: 400;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
 
-.footer-cont p{
+.footer-cont p {
     color: rgba(255, 255, 255, 0.90);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
 }
