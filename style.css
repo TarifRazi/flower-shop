@@ -1,7 +1,7 @@
 /* common css */
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     font-family: 'Fasthand', cursive;
     /* font-family: 'Open Sans', sans-serif; */
 }
@@ -24,18 +24,25 @@
 .bannar-cont {
 
     display: flex;
-    background-color: rgba(229, 84, 115, 0.10);
-
     align-items: center;
-    height: 600px;
+    gap: 50px;
 
+    background-color: rgba(229, 84, 115, 0.10);
+    height: 835px;
+    /* padding: 150px 240px 0px; */
+    position: relative;
 
 }
 
-.bannar-desc {
+/* .bannar-desc {
 
     margin: 200px;
 
+} */
+
+.bannar-desc {
+    padding-top: 30px;
+    padding-left: 120px;
 }
 
 .bannar-heading {
@@ -48,17 +55,18 @@
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
+    width: 634px;
 }
 
 .bannar-image img {
-    width: 400px;
-
+    width: 635px;
+    /* height: 800px; */
+    position: absolute;
+    top: 35px;
+    bottom: 0;
+    right: 0;
 }
 
-.bannar-image {
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-}
 
 /* featured part */
 .flwr-feature {
@@ -72,12 +80,17 @@
     column-gap: 4px;
 }
 
+.box {
+    margin-right: 14px;
+    text-align: center;
+}
+
 .flr1 {
     width: 230px;
     height: 250px;
     background-color: black;
     text-align: center;
-    padding: 15px 15px 0px 15px;
+    padding: 9px 15px 0px 15px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     display: flex;
@@ -110,14 +123,35 @@
     display: flex;
 
 }
-.box{
-    margin-right: 14px;
-    text-align: center;
-}
+
+
 
 
 .fol {
     width: 150px;
     padding: 20px 20px 0px 30px;
     margin-bottom: 0px;
+}
+
+/* service container */
+.service-cont {
+    background: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    margin: 128px 240px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 86px 0;
+
+}
+
+/* hot deals */
+.hot-deals-cont {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    gap: 180px;
+    align-items: center;
+    justify-items: center;
+    padding: 100px 250px ;
 }
