@@ -1,0 +1,123 @@
+/* common css */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Fasthand', cursive;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    display: inline-flex;
+    padding: 20px 43px;
+    margin-top: 20px;
+    font-size: 25px;
+    color: white;
+
+}
+
+/* bannar styles */
+
+
+.bannar-cont {
+
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.10);
+
+    align-items: center;
+    height: 600px;
+
+
+}
+
+.bannar-desc {
+
+    margin: 200px;
+
+}
+
+.bannar-heading {
+    color: #272727;
+    font-size: 70px;
+
+}
+
+.bannar-pera {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.bannar-image img {
+    width: 400px;
+
+}
+
+.bannar-image {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+/* featured part */
+.flwr-feature {
+    text-align: center;
+    margin: 100px;
+}
+
+.flwrimg {
+    display: flex;
+    justify-content: center;
+    column-gap: 4px;
+}
+
+.flr1 {
+    width: 230px;
+    height: 250px;
+    background-color: black;
+    text-align: center;
+    padding: 15px 15px 0px 15px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    display: flex;
+
+
+}
+
+.flr2 {
+    width: 230px;
+    height: 250px;
+    background-color: black;
+    text-align: center;
+    padding: 15px 15px 0px 15px;
+    padding-top: 10px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    display: flex;
+
+}
+
+.flr3 {
+    width: 230px;
+    height: 250px;
+    background-color: black;
+    text-align: center;
+    padding: 15px 15px 0px 15px;
+    padding-top: 10px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    display: flex;
+
+}
+.box{
+    margin-right: 14px;
+    text-align: center;
+}
+
+
+.fol {
+    width: 150px;
+    padding: 20px 20px 0px 30px;
+    margin-bottom: 0px;
+}
